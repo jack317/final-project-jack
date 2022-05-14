@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Card from 'react-bootstrap/Card';
-import './static/Home.css';
+import '../pages/static/Home.css';
 import axios from 'axios';
 import { LoadBlanks } from '../components/LoadBlanks';
 import { Button } from "react-bootstrap";
