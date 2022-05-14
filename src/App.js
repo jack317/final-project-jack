@@ -6,6 +6,7 @@ import Add from "./pages/navbar/Add"
 import Home from "./pages/Home";
 import axios from 'axios';
 
+// Axios csrf token handler
 axios.defaults.xsrfCookieName = 'csrftoken'
 axios.defaults.xsrfHeaderName = 'X-CSRFToken'
 
