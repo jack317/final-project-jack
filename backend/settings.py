@@ -63,7 +63,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR/'build'],
+        'DIRS': [BASE_DIR/'frontend'/'build'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,7 +136,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [BASE_DIR/'build'/'static']
+STATICFILES_DIRS = [BASE_DIR/'frontend'/'build'/'static']
 print(f"{STATICFILES_DIRS} This is STATICFILES_DIRS")
 
 # Default primary key field type
