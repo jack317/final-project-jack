@@ -23,6 +23,7 @@ router.register('Paragraph', views.ParagraphView)
 router.register('Saved', views.SavedView)
 
 urlpatterns = [
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
 ]
